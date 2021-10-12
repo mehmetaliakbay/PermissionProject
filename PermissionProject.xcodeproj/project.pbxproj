@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66943C4F2714C8190038805E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C4E2714C8190038805E /* ActionButton.swift */; };
+		66943C522714D7230038805E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C512714D7230038805E /* BaseView.swift */; };
+		66943C552714D9B50038805E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C542714D9B50038805E /* FontManager.swift */; };
+		66943C572714D9D30038805E /* GenericValueProtol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C562714D9D30038805E /* GenericValueProtol.swift */; };
+		66943C59271552A10038805E /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C58271552A10038805E /* ActionButtonData.swift */; };
+		66943C5B271555640038805E /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C5A271555640038805E /* ActionButtonType.swift */; };
+		66943C5D271555780038805E /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C5C271555780038805E /* ActionButtonTheme.swift */; };
+		66943C5F27155D190038805E /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66943C5E27155D190038805E /* GenericBaseView.swift */; };
 		66D175E02712031D00209487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D175DF2712031D00209487 /* AppDelegate.swift */; };
 		66D175E22712031D00209487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D175E12712031D00209487 /* SceneDelegate.swift */; };
 		66D175E42712031D00209487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D175E32712031D00209487 /* ViewController.swift */; };
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66943C4E2714C8190038805E /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		66943C512714D7230038805E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		66943C542714D9B50038805E /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		66943C562714D9D30038805E /* GenericValueProtol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtol.swift; sourceTree = "<group>"; };
+		66943C58271552A10038805E /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		66943C5A271555640038805E /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		66943C5C271555780038805E /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		66943C5E27155D190038805E /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
 		66D175DC2712031D00209487 /* PermissionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermissionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D175DF2712031D00209487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66D175E12712031D00209487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +92,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66943C4C2714C7E10038805E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66943C4D2714C7FA0038805E /* ActionButtonComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66943C4D2714C7FA0038805E /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				66943C4E2714C8190038805E /* ActionButton.swift */,
+				66943C58271552A10038805E /* ActionButtonData.swift */,
+				66943C5A271555640038805E /* ActionButtonType.swift */,
+				66943C5C271555780038805E /* ActionButtonTheme.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		66943C502714D70B0038805E /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				66943C512714D7230038805E /* BaseView.swift */,
+				66943C5E27155D190038805E /* GenericBaseView.swift */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		66943C532714D99C0038805E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				66943C602715A8350038805E /* FontManagers */,
+				66943C562714D9D30038805E /* GenericValueProtol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		66943C602715A8350038805E /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				66943C542714D9B50038805E /* FontManager.swift */,
+			);
+			path = FontManagers;
+			sourceTree = "<group>";
+		};
 		66D175D32712031D00209487 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +160,9 @@
 		66D175DE2712031D00209487 /* PermissionProject */ = {
 			isa = PBXGroup;
 			children = (
+				66943C532714D99C0038805E /* Utils */,
+				66943C502714D70B0038805E /* BaseComponent */,
+				66943C4C2714C7E10038805E /* Components */,
 				66D175DF2712031D00209487 /* AppDelegate.swift */,
 				66D175E12712031D00209487 /* SceneDelegate.swift */,
 				66D175E32712031D00209487 /* ViewController.swift */,
@@ -259,8 +323,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D175E42712031D00209487 /* ViewController.swift in Sources */,
+				66943C5D271555780038805E /* ActionButtonTheme.swift in Sources */,
 				66D175E02712031D00209487 /* AppDelegate.swift in Sources */,
+				66943C5B271555640038805E /* ActionButtonType.swift in Sources */,
+				66943C522714D7230038805E /* BaseView.swift in Sources */,
+				66943C5F27155D190038805E /* GenericBaseView.swift in Sources */,
+				66943C572714D9D30038805E /* GenericValueProtol.swift in Sources */,
 				66D175E22712031D00209487 /* SceneDelegate.swift in Sources */,
+				66943C59271552A10038805E /* ActionButtonData.swift in Sources */,
+				66943C552714D9B50038805E /* FontManager.swift in Sources */,
+				66943C4F2714C8190038805E /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
